@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    width: 65%;
+    height: 20vh;
+    background-color: #183661;
+}
+
+.titre h1 {
+    color: #FFC107;
+    font-size: 28px;
+    padding: 20px;
+}
+
+.reseau {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    color: #ffffffb7;
+    font-size: 15px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.icon a {
+    text-decoration: none;
+    color: #ffffffb7;
+    transition: all .4s ease;
+}
+
+.icon a:hover {
+    color: #ffc107b1;
+}
+
+.icon i {
+    padding-right: 6px;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: 45% 20%;
+}
+
+.left {
+    padding: 25px 20px;
+    border-right: 1px solid rgba(34, 34, 34, 0.27);
+}
+
+.forma-global {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date {
+    color: #000000bb;
+}
+
+.section-titre h3 {
+    margin-bottom: 7px;
+    color: #183661;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.info p {
+    color: #183661;
+    font-size: 15px;
+}
+
+.forma-contenu {
+    margin-bottom: 10px;
+}
+
+.bare {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(34, 34, 34, 0.146);
+    margin: 20px 0;
+}
+
+.info ul {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.info ul li {
+    color: #222;
+    font-size: 15px;
+}
+
+.link-btn em {
+    font-size: 13px;
+    font-weight: bold;
+    color: #6a561a;
+}
+
+.link-btn a {
+    color: #183661;
+    transform:  .4s;
+}
+
+.link-btn a:hover {
+    color: #e3af10;
+    text-decoration: none;
+}
+
+.care {
+    width: 15px;
+    height: 15px;
+    background: linear-gradient(to bottom, #FFC107, #ffc1074a);
+    margin-right: 10px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    padding: 6px 0;
+
+}
+
+.car {
+    margin-right: 150px;
+}
+
+.right {
+    padding: 25px 20px;
+    border-right: 1px solid rgba(34, 34, 34, 0.27);
+}
+
+.info-perso {
+    margin-bottom: 8px;
+}
+
+.info-perso p {
+    color: #000000ba;
+}
+
+.info-perso h4{
+    font-size: 15px;
+}
+
+
+/* Mon fille de competence */
+
+.point {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 7px;
+    position: relative;
+}
+
+
+
+.point2 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0px;
+}
+
+.rond {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #FFC107;
+    margin: 0 3px;
+
+}
+
+.rond2 {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #183661;
+    box-shadow: 0 0 1px 1px rgba(255, 193, 7);
+    margin: 0 3px;
+
+}
+
+.proff {
+    background-color: #183661;
+    padding:  5px;
+    border-left: 6px solid #FFC107;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    margin: 15px 0;
+    width: 60%;
+}
+
+.competence-name {
+    font-size: 14px;
+}
+
+.proff p {
+    font-size: 13px;
+    color: #ffffffca;
+}
+
+.file {
+    width: 100%;
+    height: 8px;
+    background-color: #183661;
+    margin: 10px 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+}
+
+.file2 {
+    width: 100%;
+    height: 8px;
+    background-color: #FFC107;
+    margin: 10px 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+
+.file3 {
+    width: 70%;
+    height: 8px;
+    background-color: #FFC107;
+    margin: 10px 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+
+.file4 {
+    width: 80%;
+    height: 8px;
+    background-color: #FFC107;
+    margin: 10px 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+
+.car span {
+    font-size: 13px;
+    color: #183661;
+}
+
+.langue {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
